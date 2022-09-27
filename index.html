@@ -129,7 +129,7 @@
         <span class="site-state-item-name">카테고리</span>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">7</span>
         <span class="site-state-item-name">태그</span>
       </div>
   </nav>
@@ -167,7 +167,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://ddoyun.github.io/2022/09/27/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://ddoyun.github.io/2022/09/27/Git-hub-%EC%84%B8%ED%8C%85/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -185,7 +185,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/09/27/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+          <a href="/2022/09/27/Git-hub-%EC%84%B8%ED%8C%85/" class="post-title-link" itemprop="url">Git hub 세팅</a>
         </h2>
 
         <div class="post-meta-container">
@@ -195,8 +195,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">작성일</span>
+      
 
-      <time title="Post created: 2022-09-27 15:30:34" itemprop="dateCreated datePublished" datetime="2022-09-27T15:30:34+09:00">2022-09-27</time>
+      <time title="Post created: 2022-09-27 16:40:03 / Updated at: 16:51:08" itemprop="dateCreated datePublished" datetime="2022-09-27T16:40:03+09:00">2022-09-27</time>
     </span>
 
   
@@ -209,19 +210,14 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+          <h3 id="Git-hub-세팅"><a href="#Git-hub-세팅" class="headerlink" title="Git hub 세팅"></a>Git hub 세팅</h3><p>git이란?</p>
+<p>분산형 버전관리 시스템. 단순한 구조와 빠른속도가 특징이다.</p>
+<h4 id="git-환경설정"><a href="#git-환경설정" class="headerlink" title="git 환경설정"></a>git 환경설정</h4><p>$ git config –global user.name “당신의유저네임”<br>$ git config –global user.email “당신의메일주소”<br>$ git config –global core.editor “vim”<br>$ git config –global core.pager “cat”</p>
+<ul>
+<li>lg alias 설정 : git config –global alias.lg “log –color –graph –pretty&#x3D;format:’%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset’ –abbrev-commit –”</li>
+<li>$ git config –list 로 정상 설정 확인</li>
+<li>수정이 필요할 경우, $ vi ~&#x2F;.gitconfig 에서 수정 가능</li>
+</ul>
 
       
     </div>
